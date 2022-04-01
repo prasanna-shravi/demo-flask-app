@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return 'Automatically deployed and tested using Github-Jenkins-Docker.'
+    return 'Automatically deployed and tested.'
 
 if __name__ == '__main__':
     app.run(debug=True,host='0.0.0.0',port=5000)
